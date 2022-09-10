@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 22vh auto auto;
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer";
+    background-color: #FFB2C2;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+
+/*keyframes */
+
+@keyframes cintillo {
+    0% {
+        color: white;
+
+    }
+
+    25% {
+        color: rgb(215, 230, 10);
+    }
+
+    50% {
+        color: white;
+
+    }
+
+    75% {
+        color: rgb(215, 230, 10);
+
+    }
+
+    100% {
+        color: white;
+
+    }
+}
+
+
+
+
+.whatsapp img {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    border-radius: 50px;
+    text-align: center;
+    z-index: 100;
+}

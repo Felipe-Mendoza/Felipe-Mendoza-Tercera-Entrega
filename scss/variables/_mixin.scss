@@ -1,0 +1,10 @@
+@mixin estilosHeader ($fondoHeader) {
+   
+    background-color: $fondoHeader;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+}

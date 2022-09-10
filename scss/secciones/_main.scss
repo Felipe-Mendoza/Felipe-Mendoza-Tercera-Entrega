@@ -1,0 +1,190 @@
+.main {
+    background-color: $fondoMain;
+    grid-area: main;
+
+    .banner {
+        img {
+            display: flex;
+            width: 100%;
+            height: 330px;
+
+        }
+
+        .textoBanner {
+            @extend %estiloTextoBanner;
+
+        }
+
+    }
+
+    .cintillo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: $fondeCintillo;
+        text-align: center;
+        color: $textoBlaco;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 50px;
+        font-weight: lighter;
+        font-family: $tipo;
+        animation-name: cintillo;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+
+    }
+
+    .gridVideos {
+
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-items: center;
+        justify-content: space-around;
+
+        iframe {
+            width: 100%;
+        }
+
+        h2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            font-size: 21px;
+            font-weight: bold;
+            background: $fondoH2;
+            color: $textoVino;
+            text-align: center;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            margin-bottom: 10px;
+
+        }
+    }
+
+    .row {
+        align-items: center;
+
+        .fotos{
+            height: 400px;
+
+        }
+        .fotoCentral{
+            height: 400px;
+
+        }
+
+
+        .servicio {
+            margin-top: 30px;
+            align-items: center;
+        }
+    }
+    .parrafoPrincipal {
+        background-color: #D0CECE;
+        color: #090909;
+        width: auto;
+        text-align: center;
+        padding: 25px;
+        margin: 10px;
+        font-size: 15px;
+    }
+    /*Inicio estilos formularios*/
+    .formularioPrincipal{
+        width: 460px;
+        height: 90%;
+        margin: 10px auto;
+        border-radius: 10px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        background-color: #FFB2C2;
+        padding-left: 5%;
+        margin-bottom: 10px;
+    }
+    input {
+        background-color: #fbfbfb;
+        width: 360px;
+        height: 40px;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ab4493;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    
+    }
+        
+    input:focus::placeholder {
+        color: transparent;
+    }
+    
+    .check {
+        width: 20px;
+        height: 30px;
+    }
+    
+    select {
+        background-color: #fbfbfb;
+        width: 408px;
+        height: 40px;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ab4493;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+    
+    textarea {
+        background-color: #fbfbfb;
+        width: 360px;
+        height: 150px;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ab4493;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        padding-top: 15px;
+    }
+    
+    textarea:focus::placeholder {
+        color: transparent;
+    }
+    
+    
+    .boton {
+        height: 45px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-transform: uppercase;
+        background-color: #4E0909;
+        border-color: #4E0909;
+        border-style: solid;
+        border-radius: 10px;
+        width: 360px;
+        cursor: pointer;
+        color: #D0CECE;
+    }
+    
+    
+    input::checkbox {
+        width: 2px;
+    }
+    
+    .mapa iframe {
+        width: 400px;
+        height: 400px;
+    
+    
+    }
+    
+}
