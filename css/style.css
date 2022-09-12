@@ -17,11 +17,11 @@
   0% {
     color: white; }
   25% {
-    color: #d7e60a; }
+    color: #FFB2C2; }
   50% {
     color: white; }
   75% {
-    color: #d7e60a; }
+    color: #FFB2C2; }
   100% {
     color: white; } }
 
@@ -55,7 +55,14 @@
   .header .logo-header img {
     width: 100px; }
   .header .logo-header:hover {
-    transform: rotate(340deg); }
+    transform: rotate(340deg);
+    transition: 3.25s;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px #FFB2C2;
+    -webkit-box-shadow: 0px 0px 15px 15px #FFB2C2;
+    -webkit-transform: rotate(340deg);
+    transition: all 3s cubic-bezier(0.19, 1, 0.22, 1); }
   .header .navbar-expand-lg .navbar-collapse {
     justify-content: flex-end; }
   .header .nav-item a {
@@ -63,7 +70,8 @@
     font-size: 17px;
     font-weight: bolder; }
     .header .nav-item a:hover {
-      color: #FFB2C2; }
+      color: #FFB2C2;
+      transition: 1.25s; }
 
 .main {
   background-color: #ffffff;
@@ -154,7 +162,7 @@
     height: 30px; }
   .main select {
     background-color: #fbfbfb;
-    width: 408px;
+    width: 360px;
     height: 40px;
     border-radius: 5px;
     border-style: solid;
@@ -194,8 +202,8 @@
   .main input::checkbox {
     width: 2px; }
   .main .mapa iframe {
-    width: 400px;
-    height: 400px; }
+    width: 360px;
+    height: 360px; }
 
 .footer {
   grid-area: footer;

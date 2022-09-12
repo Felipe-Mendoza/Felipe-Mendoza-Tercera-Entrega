@@ -3,14 +3,23 @@
         @include estilosHeader($fondoRosado);
 
         .logo-header {
-            img { 
+            img {
                 width: $widthLogo / 2;
             }
 
             &:hover {
                 transform: rotate(340deg);
+                transition: 3.25s;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                box-shadow: 0px 0px 15px 15px #FFB2C2;
+                -webkit-box-shadow: 0px 0px 15px 15px #FFB2C2;
+
+                -webkit-transform: rotate(340deg);
+                transition: all 3s cubic-bezier(0.19, 1, 0.22, 1);
             }
         }
+
         .navbar-expand-lg .navbar-collapse {
             justify-content: flex-end;
         }
@@ -23,8 +32,9 @@
 
             &:hover {
                 color: $textoRosado;
+                transition: 1.25s;
             }
-           
+
         }
 
     }
