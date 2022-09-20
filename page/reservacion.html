@@ -61,51 +61,50 @@
       <h1 class="cintillo">HAZ TU RESERVACION AQUI</h1>
       <div class="container">
         <div class="formularioPrincipal">
-          <div class="formulario">
-            <form>
-              <section>
-                <label for="nombre" class="colocar_nombre">Nombre *</label>
-                <input type="text" name="introducir_nombre" id="nombre" placeholder="Escribe tu nombre">
-              </section>
-              <section>
-                <label for="telefone" class="colocar_telefono">Teléfono</label>
-                <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-              </section>
-              <section>
-                <label for="email" class="colocar_email">Correo electronico</label>
-                <input type="email" name="introducir_email" id="email" placeholder="Escribe tu email">
-              </section>
-              <section>
-                <label for="servicio">Servicio</label>
-                <select name="servicio">
-                  <option value="h">Hidrafacial</option>
-                  <option value="m">Mesoterapia</option>
-                  <option value="r">Rejuvenecimiento Facial</option>
-                </select>
-              </section>
-              <section>
-                <form>
-                  <label for="date">Fecha cita</label>
-                  <input type="date" name="date">
-                </form>
-              </section>
-              <section>
-                <label for="mensaje" class="colocar_mensaje">Comentanos tu visita *</label>
-                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje"
-                  placeholder="Comentanos tu visita..."></textarea>
-              </section>
-              <input type="submit" name="enviar_formulario" class="boton">
+          <form class="formulario">
+            <div>
+              <label for="nombre" class="colocar_nombre">Nombre *</label>
+              <input type="text" name="introducir_nombre" id="nombre" placeholder="Escribe tu nombre">
+            </div>
+            <div>
+              <label for="telefone" class="colocar_telefono">Teléfono</label>
+              <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+            </div>
+            <div>
+              <label for="email" class="colocar_email">Correo electronico</label>
+              <input type="email" name="introducir_email" id="email" placeholder="Escribe tu email">
+            </div>
+            <div>
+              <label for="servicio">Servicio</label>
+              <select name="servicio">
+                <option value="h">Hidrafacial</option>
+                <option value="m">Mesoterapia</option>
+                <option value="r">Rejuvenecimiento Facial</option>
+              </select>
+            </div>
+            <div>
+              <form>
+                <label for="date">Fecha cita</label>
+                <input type="date" name="date">
+              </form>
+            </div>
+            <div>
+              <label for="mensaje" class="colocar_mensaje">Comentanos tu visita *</label>
+              <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje"
+                placeholder="Comentanos tu visita..."></textarea>
+            </div>
+            <input type="submit" name="enviar_formulario" class="boton">
 
-              <input type="reset" name="cancelar_formulario" class="boton">
+            <input type="reset" name="cancelar_formulario" class="boton">
 
 
-              <label>Acepto lo terminos y condiciones</label>
-              <input type="checkbox" class="check">
-              <p>
-                * los campos son obligatorios.
-              </p>
+            <label>Acepto lo terminos y condiciones</label>
+            <input type="checkbox" class="check">
+            <p>
+              * los campos son obligatorios.
+            </p>
+          </form>
 
-          </div>
         </div>
       </div>
       <!--contacto de whatsapp-->

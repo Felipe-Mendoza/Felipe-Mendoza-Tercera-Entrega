@@ -43,6 +43,32 @@
     }
 }
 
+@keyframes whatsapp {
+    0% {
+        color: rgb(27, 11, 99);
+
+    }
+
+    25% {
+        color: #420512;
+    }
+
+    50% {
+        color: white;
+
+    }
+
+    75% {
+        color: #FFB2C2;
+
+    }
+
+    100% {
+        color: white;
+
+    }
+}
+
 .whatsapp img {
     position: fixed;
     width: 60px;
@@ -53,4 +79,9 @@
     border-radius: 50px;
     text-align: center;
     z-index: 100;
+    &:hover {
+        background-color: #0ec21a;
+        transition: 1.25s;
+    }
 }
+

@@ -57,54 +57,67 @@
     <!--Apertura del main-->
     <main class="main">
       <h1 class="cintillo">CONTACTANOS</h1>
-      <div class="formularioPrincipal">
-        <div class="formulario">
-          <form>
-            <section>
-              <label for="nombre" class="colocar_nombre">Nombre *</label>
-              <input type="text" name="introducir_nombre" id="nombre" placeholder="Escribe tu nombre">
-            </section>
-            <section>
-              <label for="telefono" class="colocar_telefono">Teléfono
-              </label>
-              <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-            </section>
-            <section>
-              <label for="email" class="colocar_email">Correo electronico</label>
-              <input type="email" name="introducir_email" id="email" placeholder="Escribe tu email">
-            </section>
-            <section>
-              <label for="mensaje" class="colocar_mensaje">Comentanos tu visita *</label>
-              <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje"
-                placeholder="Comentanos tu visita..."></textarea>
-            </section>
-            <input type="submit" name="enviar_formulario" class="boton">
+      <div class="servicio">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 pt-3 pt-lg-0">
+              <div class="formularioPrincipal">
+                <div class="formulario">
+                  <form>
+                    <div>
+                      <label for="nombre" class="colocar_nombre">Nombre *</label>
+                      <input type="text" name="introducir_nombre" id="nombre" placeholder="Escribe tu nombre">
+                    </div>
+                    <div>
+                      <label for="telefono" class="colocar_telefono">Teléfono
+                      </label>
+                      <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    </div>
+                    <div>
+                      <label for="email" class="colocar_email">Correo electronico</label>
+                      <input type="email" name="introducir_email" id="email" placeholder="Escribe tu email">
+                    </div>
+                    <div>
+                      <label for="mensaje" class="colocar_mensaje">Comentanos tu visita *</label>
+                      <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje"
+                        placeholder="Comentanos tu visita..."></textarea>
+                    </div>
+                    <input type="submit" name="enviar_formulario" class="boton">
 
-            <input type="reset" name="cancelar_formulario" class="boton">
-            <label>Acepto lo terminos y condiciones</label>
-            <input type="checkbox" class="check">
-            <p>
-              * los campos son obligatorios.
-            </p>
-            <div>
+                    <input type="reset" name="cancelar_formulario" class="boton">
+                    <label>Acepto lo terminos y condiciones</label>
+                    <input type="checkbox" class="check">
+                    <p>
+                      * los campos son obligatorios.
+                    </p>
 
+
+                  </form>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="col-lg-6 video-box align-self-baseline">
               <h3>Tambien nos puedes vistar en nuestro consultorio</h3>
-
               <p>Santiago de Chile</p>
               <p>Telefono: 55.55555555</p>
+
+              <div class="mapa">
+                <iframe class="mapa"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d106527.67098697796!2d-70.64453119999999!3d-33.449574399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1658519796543!5m2!1ses!2scl"
+                  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                  alt="mapaSitio"></iframe>
+              </div>
             </div>
-            <div class="mapa">
-              <iframe class="mapa"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d106527.67098697796!2d-70.64453119999999!3d-33.449574399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1658519796543!5m2!1ses!2scl"
-                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" alt="mapaSitio"></iframe>
-            </div>
-          </form>
+          </div>
         </div>
       </div>
       <!--contacto de whatsapp-->
       <a href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp"
         target="_blank"><img src="https://res.cloudinary.com/dninjpxlv/image/upload/v1662604056/wapp_esp1ap.png"
-          alt="logoWapp" /></a>
+          alt="logo whatsapp" /></a>
       <!--fin contacto de whatsapp-->
     </main>
     <!--Cierre de main-->

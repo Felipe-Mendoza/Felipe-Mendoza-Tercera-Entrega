@@ -2,11 +2,17 @@
     background-color: $fondoMain;
     grid-area: main;
 
+    p {
+        color: #919191;
+        ;
+    }
+
     .banner {
         img {
-            display: flex;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
             width: 100%;
-            height: 330px;
 
         }
 
@@ -68,12 +74,22 @@
     .row {
         align-items: center;
 
-        .fotos{
-            height: 400px;
+        .fotos {
+
+            width: 100%;
+
+            &:hover {
+                filter: grayscale(80%);
+            }
 
         }
-        .fotoCentral{
-            height: 400px;
+
+        .fotoCentral {
+            width: 100%;
+
+            &:hover {
+                filter: grayscale(80%);
+            }
 
         }
 
@@ -81,8 +97,10 @@
         .servicio {
             margin-top: 30px;
             align-items: center;
+
         }
     }
+
     .parrafoPrincipal {
         background-color: #D0CECE;
         color: #090909;
@@ -92,8 +110,9 @@
         margin: 10px;
         font-size: 15px;
     }
+
     /*Inicio estilos formularios*/
-    .formularioPrincipal{
+    .formularioPrincipal {
         width: 460px;
         height: 90%;
         margin: 10px auto;
@@ -102,8 +121,12 @@
         padding-bottom: 20px;
         background-color: #FFB2C2;
         padding-left: 5%;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        box-shadow: 0px 10px 10px black;
+
+
     }
+
     input {
         background-color: #fbfbfb;
         width: 360px;
@@ -115,18 +138,22 @@
         margin-top: 10px;
         padding-left: 10px;
         margin-bottom: 20px;
-    
+
     }
-        
+
     input:focus::placeholder {
         color: transparent;
     }
-    
+
+    label {
+        display: block;
+    }
+
     .check {
         width: 20px;
         height: 30px;
     }
-    
+
     select {
         background-color: #fbfbfb;
         width: 360px;
@@ -139,7 +166,7 @@
         padding-left: 10px;
         margin-bottom: 20px;
     }
-    
+
     textarea {
         background-color: #fbfbfb;
         width: 360px;
@@ -153,12 +180,12 @@
         margin-bottom: 20px;
         padding-top: 15px;
     }
-    
+
     textarea:focus::placeholder {
         color: transparent;
     }
-    
-    
+
+
     .boton {
         height: 45px;
         padding-left: 5px;
@@ -174,17 +201,29 @@
         cursor: pointer;
         color: #D0CECE;
     }
-    
-    
+
+
     input::checkbox {
         width: 2px;
     }
-    
+
     .mapa iframe {
-        width: 360px;
-        height: 360px;
-    
-    
+        width: 100%;
+        height: 400px;
+
+
     }
-    
+
+    .servicio {
+        .container {
+            h3 {
+                color: #919191;
+            }
+        }
+
+    }
+
+   
+
 }
+

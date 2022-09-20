@@ -16,10 +16,7 @@
         }
 
         .banner {
-            img {
-                height: 170px;
-                margin-top: 10px;
-            }
+
 
             .textoBanner {
                 font-size: 3rem;
@@ -42,9 +39,7 @@
 
         .main {
             .banner {
-                img {
-                    height: 140px;
-                }
+
 
                 .textoBanner {
                     font-size: 2rem;
@@ -72,12 +67,7 @@
 
         .main {
             .banner {
-                img {
-                    display: flex;
-                    width: 100%;
-                    height: 120px;
-                    margin-top: 10px;
-                }
+
 
                 .textoBanner {
                     font-size: 1.5rem;
@@ -99,12 +89,6 @@
 /* MEDIA QUERYS SERVICIO */
 
 @media (max-width: 992px) {
-
-    .main .row .fotos {
-        width: 100%;
-        height: 400px;
-    }
-
     .main .fotoCentral {
         display: none;
     }
@@ -114,76 +98,69 @@
     }
 }
 
-@media (max-width: 330px) {
-
-    .main .row .fotos {
-        width: 100%;
-        height: 300px;
-    }
-
-
-}
-
 /* MEDIA QUERYS RESERVACION */
 @media (max-width: 485px) {
 
     .main .formularioPrincipal {
         width: 320px;
+
         input {
             width: 90%
         }
-    
+
         textarea {
             width: 90%;
             height: 150px;
         }
-    
+
         select {
             width: 90%;
         }
-    
+
         .boton {
-    
+
             width: 90%;
-    
+
         }
-    
+
         .mapa iframe {
             width: 90%;
             height: auto;
-    
+
         }
     }
 
 
 }
+
 @media (max-width: 340px) {
 
     .main .formularioPrincipal {
         width: 300px;
+
         input {
             width: 90%
         }
-    
+
         textarea {
             width: 90%;
             height: 150px;
         }
-    
+
         select {
             width: 90%;
         }
-    
+
         .boton {
-    
+
             width: 90%;
-    
+
         }
-    
+
         .mapa iframe {
             width: 90%;
             height: auto;
-    
+
         }
     }
 
