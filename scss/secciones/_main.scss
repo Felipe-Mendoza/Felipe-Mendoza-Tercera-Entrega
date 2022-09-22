@@ -7,21 +7,29 @@
         ;
     }
 
-    .banner {
-        img {
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: 50% 50%;
-            width: 100%;
+    .contenedor {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+
+        .banner {
+            img {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+                width: 100%;
+
+            }
+
+            .textoBanner {
+                @extend %estiloTextoBanner;
+
+            }
 
         }
-
-        .textoBanner {
-            @extend %estiloTextoBanner;
-
-        }
-
     }
+
+
 
     .cintillo {
         display: flex;
@@ -120,16 +128,15 @@
         padding-top: 30px;
         padding-bottom: 20px;
         background-color: #FFB2C2;
-        padding-left: 5%;
         margin-bottom: 20px;
-        box-shadow: 0px 10px 10px black;
+        box-shadow: 0px 10px 10px #4E0909;
 
 
     }
 
     input {
         background-color: #fbfbfb;
-        width: 360px;
+        width: 100%;
         height: 40px;
         border-radius: 5px;
         border-style: solid;
@@ -156,7 +163,7 @@
 
     select {
         background-color: #fbfbfb;
-        width: 360px;
+        width: 100%;
         height: 40px;
         border-radius: 5px;
         border-style: solid;
@@ -169,7 +176,7 @@
 
     textarea {
         background-color: #fbfbfb;
-        width: 360px;
+        width: 100%;
         height: 150px;
         border-radius: 5px;
         border-style: solid;
@@ -185,21 +192,32 @@
         color: transparent;
     }
 
+    .botones {
+        display: flex;
+        .boton {
+            height: 45px;
+            padding-left: 5px;
+            padding-right: 5px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+            text-transform: uppercase;
+            background-color: #f99d9d;
+            border-color: #f99d9d;
+            border-style: solid;
+            border-radius: 10px;
+            width: 360px;
+            margin: 4px;
+            cursor: pointer;
+            color: #4E0909;
+            box-shadow: 0px 2px 2px #4E0909;
 
-    .boton {
-        height: 45px;
-        padding-left: 5px;
-        padding-right: 5px;
-        margin-bottom: 20px;
-        margin-top: 10px;
-        text-transform: uppercase;
-        background-color: #4E0909;
-        border-color: #4E0909;
-        border-style: solid;
-        border-radius: 10px;
-        width: 360px;
-        cursor: pointer;
-        color: #D0CECE;
+            &:hover {
+                color: #f99d9d;
+                background-color: #4E0909;
+                box-shadow: 0px 2px 2px #f99d9d;
+                transition: 1.25s;
+            }
+        }
     }
 
 
@@ -223,7 +241,6 @@
 
     }
 
-   
+
 
 }
-

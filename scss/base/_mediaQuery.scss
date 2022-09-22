@@ -15,16 +15,7 @@
             font-size: 35px;
         }
 
-        .banner {
-
-
-            .textoBanner {
-                font-size: 3rem;
-                bottom: 52%;
-
-            }
-
-        }
+       
     }
 
     @media (max-width: 583px) {
@@ -38,16 +29,7 @@
         }
 
         .main {
-            .banner {
-
-
-                .textoBanner {
-                    font-size: 2rem;
-                    bottom: 55%;
-
-                }
-
-            }
+       
 
             .cintillo {
                 font-size: 25px;
@@ -66,16 +48,7 @@
         }
 
         .main {
-            .banner {
-
-
-                .textoBanner {
-                    font-size: 1.5rem;
-                    bottom: 60%;
-
-                }
-
-            }
+        
 
             .cintillo {
                 font-size: 18px;
@@ -97,72 +70,9 @@
         display: none;
     }
 }
-
-/* MEDIA QUERYS RESERVACION */
-@media (max-width: 485px) {
-
+@media (max-width: 572px) {
     .main .formularioPrincipal {
-        width: 320px;
-
-        input {
-            width: 90%
-        }
-
-        textarea {
-            width: 90%;
-            height: 150px;
-        }
-
-        select {
-            width: 90%;
-        }
-
-        .boton {
-
-            width: 90%;
-
-        }
-
-        .mapa iframe {
-            width: 90%;
-            height: auto;
-
-        }
-    }
-
-
+        width: 100%
+}
 }
 
-@media (max-width: 340px) {
-
-    .main .formularioPrincipal {
-        width: 300px;
-
-        input {
-            width: 90%
-        }
-
-        textarea {
-            width: 90%;
-            height: 150px;
-        }
-
-        select {
-            width: 90%;
-        }
-
-        .boton {
-
-            width: 90%;
-
-        }
-
-        .mapa iframe {
-            width: 90%;
-            height: auto;
-
-        }
-    }
-
-
-}

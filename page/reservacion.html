@@ -60,8 +60,8 @@
 
       <h1 class="cintillo">HAZ TU RESERVACION AQUI</h1>
       <div class="container">
-        <div class="formularioPrincipal">
-          <form class="formulario">
+        <div class="formularioPrincipal container">
+          <form class="formulario container">
             <div>
               <label for="nombre" class="colocar_nombre">Nombre *</label>
               <input type="text" name="introducir_nombre" id="nombre" placeholder="Escribe tu nombre">
@@ -93,10 +93,11 @@
               <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje"
                 placeholder="Comentanos tu visita..."></textarea>
             </div>
-            <input type="submit" name="enviar_formulario" class="boton">
+            <div class="botones">
+              <input type="submit" name="enviar_formulario" class="boton">
 
-            <input type="reset" name="cancelar_formulario" class="boton">
-
+              <input type="reset" name="cancelar_formulario" class="boton">
+            </div>
 
             <label>Acepto lo terminos y condiciones</label>
             <input type="checkbox" class="check">

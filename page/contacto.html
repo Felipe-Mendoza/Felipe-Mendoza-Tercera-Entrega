@@ -61,8 +61,8 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-6 pt-3 pt-lg-0">
-              <div class="formularioPrincipal">
-                <div class="formulario">
+              <div class="formularioPrincipal container">
+                <div class="formulario container">
                   <form>
                     <div>
                       <label for="nombre" class="colocar_nombre">Nombre *</label>
@@ -82,9 +82,11 @@
                       <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje"
                         placeholder="Comentanos tu visita..."></textarea>
                     </div>
-                    <input type="submit" name="enviar_formulario" class="boton">
-
-                    <input type="reset" name="cancelar_formulario" class="boton">
+                    <div class="botones">
+                      <input type="submit" name="enviar_formulario" class="boton">
+        
+                      <input type="reset" name="cancelar_formulario" class="boton">
+                    </div>
                     <label>Acepto lo terminos y condiciones</label>
                     <input type="checkbox" class="check">
                     <p>

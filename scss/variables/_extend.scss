@@ -1,8 +1,10 @@
 %estiloTextoBanner{
-    display: inline-flex;
-    font-size: 5rem;
+       
     position: absolute;
-    bottom: 34%;
-    left: 40px;
+    font-size: 7vw;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
     color: $textoVino;
 }
+
